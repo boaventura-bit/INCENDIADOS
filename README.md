@@ -31,7 +31,6 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 - **HTML5**: Estrutura semântica e moderna.
 - **CSS3**: Estilos elegantes e responsivos para todos os dispositivos.
 - **Flexbox e Media Queries**: Para garantir que o layout funcione perfeitamente em todas as telas, de desktops a smartphones.
-- **JavaScript (opcional)**: Para futuras interações dinâmicas (como o botão de inscrição).
 
 ---
 
