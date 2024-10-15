@@ -38,8 +38,6 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 ## 📂 **Estrutura de Arquivos**
 
 ```
-Aqui está o caminho atualizado de acordo com a estrutura da imagem que você forneceu:
-
 📦 INCENDIADOS
 ┣ 📂 midias
 ┃  ┣  🖼️ 1.0.png (Imagem do evento 1.0)
@@ -55,7 +53,7 @@ Aqui está o caminho atualizado de acordo com a estrutura da imagem que você fo
 ┣ 📄 README.md (Arquivo de informações do projeto)
 ┗ 📄 style.css (Estilos do site)
 
----
+```
 
 ## 📲 **Responsividade**
 
