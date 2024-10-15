@@ -1,0 +1,166 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C1B498;
+}
+
+header {
+    text-align: center;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #C1B498;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container video {
+    width: 600px;
+    height: auto;
+}
+
+.cta-text {
+    margin-left: 50px;
+    max-width: 500px;
+    text-align: justify; /* Justifica o texto */
+}
+
+.cta h1 {
+    color: #704B30;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o botão de inscrição */
+.btn-inscricao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #704B30;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-inscricao:hover {
+    background-color: #85664B;
+}
+
+.gallery {
+    text-align: center;
+    padding: 50px;
+    background-color: #AF9D82;
+}
+
+.gallery h2 {
+    color: #704B30;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.gallery-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Estilos do h3 para se parecer com um botão */
+.card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+    background-color: #704B30; /* Mesma cor do botão da cta */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+/* Remove o sublinhado e adiciona hover */
+.card h3 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.card h3:hover {
+    background-color: #85664B;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #704B30;
+    color: #fff;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .cta {
+        flex-direction: column; /* Empilha o vídeo e o texto */
+        padding: 20px;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+    }
+
+    .cta-text {
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .gallery-cards {
+        flex-direction: column; /* Galeria empilhada em telas menores */
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta h1 {
+        font-size: 24px;
+    }
+
+    .cta p {
+        font-size: 16px;
+    }
+
+    .btn-inscricao {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
