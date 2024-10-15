@@ -38,18 +38,22 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 ## 📂 **Estrutura de Arquivos**
 
 ```
-📦Área de Confronto - INCENDIADOS
- ┣ 📂static
- ┃ ┣ 📂images
- ┃ ┃ ┣ 🎨header.jpg (Imagem do topo)
- ┃ ┃ ┣ 🖼️galeria1.jpg (Foto do evento 1.0)
- ┃ ┃ ┣ 🖼️galeria2.jpg (Foto do evento 2.0)
- ┃ ┃ ┣ 🖼️galeria3.jpg (Foto do evento 3.0)
- ┣ 📂templates
- ┃ ┣ 📄index.html (Página principal)
- ┣ 📄style.css (Estilos do site)
- ┗ 📄README.md (Este arquivo maravilhoso)
-```
+Aqui está o caminho atualizado de acordo com a estrutura da imagem que você forneceu:
+
+📦 **INCENDIADOS**
+┣ 📂 **midias**
+┃  ┣  🖼️ **1.0.png** (Imagem do evento 1.0)
+┃  ┣  🖼️ **2.0.png** (Imagem do evento 2.0)
+┃  ┣  🖼️ **3.0.png** (Imagem do evento 3.0)
+┃  ┣  🖼️ **icone_igreja.png** (Ícone da igreja)
+┃  ┣  🖼️ **icone.png** (Ícone geral)
+┃  ┣  🎥 **incendiados.mp4** (Vídeo do evento Incendiados)
+┃  ┣  🖼️ **juventude.png** (Imagem relacionada à juventude)
+┃  ┗  🖼️ **topo.PNG** (Imagem do topo)
+┣ 📄 **index.html** (Página principal)
+┣ 📄 **LICENSE** (Licença do projeto)
+┣ 📄 **README.md** (Arquivo de informações do projeto)
+┗ 📄 **style.css** (Estilos do site)
 
 ---
 
