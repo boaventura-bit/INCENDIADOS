@@ -90,11 +90,11 @@ Quer contribuir com melhorias? Sinta-se à vontade para fazer um **fork** deste 
 
 ## 💬 **Contato**
 
-Se você tiver alguma dúvida ou sugestão sobre o site ou o evento, entre em contato:
+Se você tiver alguma dúvida ou sugestão sobre o site, entre em contato:
 
 - **E-mail**: carlos_boaventura@outlook.com.br
 - **Instagram**: [@boaventura_bit](https://instagram.com/boaventura_bit)
-- **Telefone**: (XX) XXXXX-XXXX
+- **Telefone**: (31) 99799-1873
 
 ---
 
