@@ -77,7 +77,7 @@ header {
 
 .gallery-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Alinha os itens ao centro */
     flex-wrap: wrap;
 }
 
@@ -91,37 +91,37 @@ header {
     border-radius: 8px;
 }
 
-/* Estilos do h3 para se parecer com um botão */
-.card h3 {
-    font-size: 18px;
-    margin-top: 10px;
-    color: white;
-    background-color: #704B30; /* Mesma cor do botão da cta */
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.3s;
-}
-
-/* Remove o sublinhado e adiciona hover */
-.card h3 a {
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-
-.card h3:hover {
-    background-color: #85664B;
-}
-
 footer {
     text-align: center;
     padding: 20px;
     background-color: #704B30;
     color: #fff;
 }
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+    color: #AF9D82; /* Cor de destaque ao passar o mouse */
+}
+
+footer .social-media img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
@@ -143,10 +143,12 @@ footer {
 
     .gallery-cards {
         flex-direction: column; /* Galeria empilhada em telas menores */
+        align-items: center;   /* Centraliza as imagens da galeria */
     }
 
     .card {
-        width: 100%;
+        width: 80%; /* Ajusta o tamanho das imagens em telas menores */
+        margin: 10px auto;
     }
 }
 
@@ -162,5 +164,9 @@ footer {
     .btn-inscricao {
         font-size: 16px;
         padding: 8px 16px;
+    }
+
+    .card {
+        width: 90%; /* Ajusta ainda mais o tamanho das imagens em telas muito pequenas */
     }
 }
